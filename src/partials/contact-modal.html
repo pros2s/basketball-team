@@ -6,35 +6,240 @@
       <img src="assets/images/close.svg" alt="закрыть">
     </button>
 
-    <form class="form  form--passw" action="/" method="post">
-      <div class="cabinet__form">
-        <div class="form__group  form__group--mb25">
-          <input class="form__control" type="name" placeholder="Имя"></input>
-          <span class="form__line"></span>
-        </div>
-        <div class="form__group  form__group--mb25">
-          <input class="form__control" type="email" placeholder="e-mail"></input>
-          <span class="form__line"></span>
-        </div>
-        <div class="form__group  form__group--mb25">
-          <textarea class="form__control  form__control--textarea" type="text" placeholder="Текст сообщения"></textarea>
-          <span class="form__line"></span>
-        </div>
+    <table class="stat-table" cellpadding="0" cellspacing="0">
+      <colgroup>
+        <col width="60">
+        <col width="">
+        <col width="70">
+        <col width="55">
+        <col width="60">
+        <col width="150">
+      </colgroup>
 
-        <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
-      </div>
+      <thead class="team__names">
+        <tr>
+          <td>
+            <span class="sort">Номер</span>
+          </td>
+          <td class="name-td alLeft bordR">
+            <span class="sort">Игрок</span>
+          </td>
+          <td>
+            <span class="sort">Возраст</span>
+          </td>
+          <td>
+            <span class="sort">Рост</span>
+          </td>
+          <td>
+            <span class="sort">Вес</span>
+          </td>
+          <td>
+            <span class="sort">Амплуа</span>
+          </td>
+        </tr>
+      </thead>
 
-      <ul class="form__footer  form__footer--modal">
-        <li>
-          e-mail:
-          <a href="mailto:info@mywebsite.ru">info@mywebsite.ru</a>
-        </li>
-        <li>
-          тел:
-          <a href="tel:+94323285622">+943-232-856-22</a>
-        </li>
-      </ul>
-    </form>
+      <tbody>
+        <tr style="height: 2rem;">
+          <td>22</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1404 flag-s flag-1404" title="Сербия"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/158901336/">Василие Мицич</a>
+          </td>
+          <td>28</td>
+          <td>197</td>
+          <td>92</td>
+          <td title="разыгрывающий">разыгрывающий</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>4</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/117846014/">Догуш Балбай</a>
+          </td>
+          <td>33</td>
+          <td>185</td>
+          <td>82</td>
+          <td title="разыгрывающий">разыгрывающий</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>10</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161099394/">Омерджан Ильясоглу</a>
+          </td>
+          <td>21</td>
+          <td>193</td>
+          <td></td>
+          <td title="разыгрывающий">разыгрывающий</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>1</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1311 flag-s flag-1311" title="Франция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/15463093/">Родриг Бобуа</a>
+          </td>
+          <td>34</td>
+          <td>188</td>
+          <td>84</td>
+          <td title="разыгрывающий">разыгрывающий</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td></td>
+
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1301 flag-s flag-1301" title="США"></i>&nbsp;<i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/151060495/">Шейн Ларкин</a>
+          </td>
+          <td>29</td>
+          <td>180</td>
+          <td>79</td>
+          <td title="разыгрывающий">разыгрывающий</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>19</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161085622/">Буграхан Тунджер</a>
+          </td>
+          <td>29</td>
+          <td>193</td>
+          <td>90</td>
+          <td title="атакующий защитник">атакующий защитник</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>23</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1301 flag-s flag-1301" title="США"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/71380453/">Джеймс Андерсон</a>
+          </td>
+          <td>33</td>
+          <td>198</td>
+          <td>98</td>
+          <td title="атакующий защитник">атакующий защитник</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>44</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1407 flag-s flag-1407" title="Хорватия"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/117681720/">Крунослав Симон</a>
+          </td>
+          <td>36</td>
+          <td>197</td>
+          <td>100</td>
+          <td title="атакующий защитник">атакующий защитник</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>6</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1301 flag-s flag-1301" title="США"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161099352/">Элайджа Брайант</a>
+          </td>
+          <td>26</td>
+          <td>196</td>
+          <td>95</td>
+          <td title="атакующий защитник">атакующий защитник</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>11</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161111995/">Эртен Гази</a>
+          </td>
+          <td>24</td>
+          <td>195</td>
+          <td></td>
+          <td title="атакующий защитник">атакующий защитник</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>8</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161099393/">Толга Гечим</a>
+          </td>
+          <td>26</td>
+          <td>206</td>
+          <td>91</td>
+          <td title="легкий форвард">легкий форвард</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>18</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1311 flag-s flag-1311" title="Франция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/128435152/">Адриен Морман</a>
+          </td>
+          <td>33</td>
+          <td>203</td>
+          <td>102</td>
+          <td title="тяжелый форвард">тяжелый форвард</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>3</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161072247/">Йигитджан Сайбир</a>
+          </td>
+          <td>23</td>
+          <td>202</td>
+          <td>88</td>
+          <td title="тяжелый форвард">тяжелый форвард</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>2</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1301 flag-s flag-1301" title="США"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/132977785/">Крис Синглтон</a>
+          </td>
+          <td>32</td>
+          <td>206</td>
+          <td>108</td>
+          <td title="тяжелый форвард">тяжелый форвард</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>33</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1404 flag-s flag-1404" title="Сербия"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161113061/">Филип Петрушев</a>
+          </td>
+          <td>21</td>
+          <td>211</td>
+          <td>107</td>
+          <td title="тяжелый форвард">тяжелый форвард</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>42</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1301 flag-s flag-1301" title="США"></i>&nbsp;<i class="icon-flag icon-flag_1341 flag-s flag-1341" title="Армения"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/153716619/">Брайант Данстон</a>
+          </td>
+          <td>35</td>
+          <td>203</td>
+          <td>114</td>
+          <td title="центровой">центровой</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td>21</td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1287 flag-s flag-1287" title="Германия"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/29686318/">Тибор Пляйсс</a>
+          </td>
+          <td>32</td>
+          <td>221</td>
+          <td>116</td>
+          <td title="центровой">центровой</td>
+        </tr>
+
+        <tr style="height: 2rem;">
+          <td></td>
+          <td class="name-td alLeft bordR">
+          <i class="icon-flag icon-flag_1300 flag-s flag-1300" title="Турция"></i>&nbsp;<a target="_blank" href="https://www.sports.ru/tags/161033538/">Эгемен Гювен</a>
+          </td>
+          <td>25</td>
+          <td>211</td>
+          <td>100</td>
+          <td title="центровой">центровой</td>
+        </tr>
+      </tbody>
+    </table>
 
   </div><!-- Modal__content -->
 </div><!-- Modal -->

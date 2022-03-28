@@ -1,0 +1,23 @@
+.stat-table {
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.stat-table .sort {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.team__names {
+  color: #35D4C7;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+.name-td {
+  a {
+    color: $white;
+  }
+}

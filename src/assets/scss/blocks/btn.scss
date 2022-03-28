@@ -40,6 +40,25 @@
     }
   }
 
+  &--gray5 {
+    background-color: $white;
+    box-shadow: 0 .7rem 1.7rem -1rem rgba($white, .3);
+
+    padding-top: .8em;
+    padding-bottom: .8em;
+
+    color: $blue;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    transition: background-color .1s linear, color .1s linear;
+
+    &:hover {
+      background-color: darken($blue, 10%);
+      color: darken($white, 5%);
+    }
+  }
+
   &--rounded {
     border-radius: .41em;
   }
@@ -51,5 +70,9 @@
   &--center {
     display: block;
     margin: 0 auto;
+  }
+
+  &--team {
+    width: 120px;
   }
 }

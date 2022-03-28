@@ -6,8 +6,9 @@ import autoResize from './blocks/autoresize';
 window.addEventListener('DOMContentLoaded', () => {
   burger('.burger');
 
-  modal('#contactModal', '[data-modal="contact-modal"]');
-  modal('#story-modal', '[data-modal="story-modal"]');
+  modal('#contactModal', '[data-modal="team-modal"]');
+  modal('#calendarModal', '[data-modal="calendar-modal"]');
+  modal('#statModal', '[data-modal="stat-modal"]');
   modal('#share-modal', '[data-modal="share-modal"]');
 
   subnav('.nav--mobile');

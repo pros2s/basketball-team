@@ -1,0 +1,75 @@
+.store {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . ."
+    ". . .";
+}
+
+.store__item {
+  padding: 1rem;
+
+  background-color: $white;
+  border: 2px solid #C1C1C1;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.store__link {
+  width: 33.3%;
+}
+
+.store__content {
+  width: auto;
+
+  overflow: hidden;
+}
+
+.store__img {
+  width: 100%;
+  margin: -2rem auto 0;
+
+  transition: transform .3s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.store__footer {
+  display: flex;
+  justify-content: space-between;
+
+  color: $black;
+}
+
+.store__text {
+  width: 63.5%;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.store__cost {
+  width: 36.5%;
+
+  margin-left: 0.5rem;
+
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
